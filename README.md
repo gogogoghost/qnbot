@@ -1,10 +1,8 @@
 ## qnbot
 
-轻量的七牛云命令行工具（还未发布到npm，多测试一下）
+轻量的七牛云命令行工具
 
 可用于简单的文件上传、部署前端开发静态资源。
-
-
 
 ### 安装
 
@@ -37,23 +35,24 @@ qnbot config
 获取配置信息
 ```shell
 The path of global config:
-/home/xxx/project/qnbot/qn.config.js
+/usr/lib/node_modules/qnbot/qn.config.js
 
 The path of current config:
 Current config not found
 
 qn bot will use current config first
 ```
-qnbot配置文件名为qn.config.js
+qnbot配置文件名为**qn.config.js**
 
 可通过修改global config路径下的文件添加全局配置，也可在当前目录下建立配置文件
 
 当前目录的配置会被优先使用
 
 ```shell script
-cp /home/xxx/project/qnbot/qn.config.js ./
+cp /usr/lib/node_modules/qnbot/qn.config.js ./
 vim qn.config.js
 ```
+**/usr/lib/node_modules/qnbot/qn.config.js**为**qnbot config**输出的全局配置路径
 ### 上传文件
 ```shell script
 qnbot upload main dir
