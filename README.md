@@ -1,5 +1,7 @@
 ## qnbot
 
+[![](https://img.shields.io/npm/v/qnbot.svg?style=flat-square)](https://www.npmjs.com/package/qnbot)
+
 轻量的七牛云命令行工具
 
 可用于简单的文件上传、部署前端开发静态资源。
