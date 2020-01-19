@@ -57,7 +57,7 @@ vim qn.config.js
 ```shell script
 qnbot upload main dir
 ```
-将dir目录下的文件递归上传到名称或者别名为main的桶中，dir目录对应桶的根目录
+将dir目录下的文件**递归**上传到**名称或者别名**为main的桶中，dir目录对应桶的**根目录**
 
 文件上传前会做hash运算判断桶中文件是否一致，不一致或桶中无该文件才上传，并会覆盖已有文件
 

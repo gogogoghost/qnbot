@@ -1,6 +1,6 @@
 {
   "name": "qnbot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "七牛云上传文件命令行工具，部署静态资源工具",
   "main": "lib/index.js",
   "scripts": {},
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/gogogoghost/qnbot"
+    "url": "https://github.com/gogogoghost/qnbot"
   },
   "author": "gogogoghost",
   "license": "MIT",
@@ -18,5 +18,11 @@
     "crypto": "^1.0.1",
     "js-sha1": "^0.6.0",
     "qiniu": "^7.2.2"
-  }
+  },
+  "keywords": [
+    "qiniu",
+    "七牛",
+    "七牛云",
+    "OSS"
+  ]
 }
