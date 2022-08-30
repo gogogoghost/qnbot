@@ -18,14 +18,14 @@ npm install -g qnbot
 
 配置文件为如下格式
 
-```javascript
-module.exports={
-    accessKey:'',    //七牛后台获取的accessKey
-    secretKey:'',    //七牛后台获取的secretKey
-    bucketList:[{    //需要管理的桶的列表
-        name:'name',    //桶名称，需要和七牛桶名称一样
-        baseUrl:'http://test.com/',    //上传成功后输出在命令行的链接前缀，可选
-        cmdName:'test'    //命令行桶名称别名，用于缩短上传命令
+```json
+{
+    "accessKey":"",    //七牛后台获取的accessKey
+    "secretKey":"",    //七牛后台获取的secretKey
+    "bucketList":[{    //需要管理的桶的列表
+        "name":"name",    //桶名称，需要和七牛桶名称一样
+        "baseUrl":"http://test.com/",    //上传成功后输出在命令行的链接前缀，可选
+        "cmdName":"test"   //命令行桶名称别名，用于缩短上传命令
     }]
 }
 ```
@@ -37,24 +37,19 @@ qnbot config
 获取配置信息
 ```shell
 The path of global config:
-/usr/lib/node_modules/qnbot/qn.config.js
+/home/ghost/.config/qnbot.json
 
 The path of current config:
 Current config not found
 
 qn bot will use current config first
 ```
-qnbot配置文件名为**qn.config.js**
+qnbot配置文件名为**qnbot.json**
 
 可通过修改global config路径下的文件添加全局配置，也可在当前目录下建立配置文件
 
 当前目录的配置会被优先使用
 
-```shell script
-cp /usr/lib/node_modules/qnbot/qn.config.js ./
-vim qn.config.js
-```
-**/usr/lib/node_modules/qnbot/qn.config.js**为**qnbot config**输出的全局配置路径
 ### 上传文件
 ```shell script
 qnbot upload main dir
