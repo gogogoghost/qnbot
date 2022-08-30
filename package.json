@@ -1,6 +1,6 @@
 {
   "name": "qnbot",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "七牛云上传文件命令行工具，部署静态资源工具",
   "main": "lib/index.js",
   "scripts": {},
