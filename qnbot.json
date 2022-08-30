@@ -1,0 +1,11 @@
+{
+  "accessKey": "be9JznbQom4agysBbY4maWgxSc1N5RxBTaWPty6Y",
+  "secretKey": "04A3h5pkoeFav-lLK3hrmPPN2acU3-jbpsSn_KHh",
+  "bucketList": [
+    {
+      "name": "test-upload-test",
+      "baseUrl": "http://rheupno0v.hn-bkt.clouddn.com/",
+      "cmdName": "test"
+    }
+  ]
+}

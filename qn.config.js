@@ -1,9 +1,0 @@
-module.exports={
-    accessKey:'',
-    secretKey:'',
-    bucketList:[{
-        name:'name',
-        baseUrl:'http://test.com/',
-        cmdName:'test'
-    }]
-}
